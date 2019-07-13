@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #515151;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+header {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+
+main {
+  height: 90vw;
+  width: 90vw;
+  margin-bottom: 5vw;
+  background-color: #cdcdcd;
+}
