@@ -1,19 +1,23 @@
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Fun Flying Action</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
 
-<head>
-<meta charset="utf-8">
-<title>Brython demo</title>
+  <body onload="brython({debug: 1, indexedDB: false})">
+    <div class="container">
+      <header>
+        <h1>Fun Flying Action</h1>
+      </header>
+      <main id="game"></main>
+      <section id="instructions">
+        <p>Use the arrow keys to control your flyer!</p>
+      </section>
+    </div>
 
-</head>
-
-<body onload="brython({debug: 1, indexedDB: false})">
-
-<h1>We made a thing</h1>
-
-<script src="brython.js"></script>
-<script src="brython_stdlib.js"></script>
-<script type="text/python" src="main.py"></script>
-
-</body>
-
+    <script src="brython.js"></script>
+    <script src="brython_stdlib.js"></script>
+    <script type="text/python" src="main.py"></script>
+  </body>
 </html>
