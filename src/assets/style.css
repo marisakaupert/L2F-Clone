@@ -25,7 +25,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .container {
@@ -34,11 +34,13 @@ header {
   justify-content: center;
   align-items: center;
   width: 90vw;
+  max-width: 800px;
 }
 
 main {
   height: 90vw;
-  width: 90vw;
+  max-height: 800px;
+  width: 90%;
   margin-bottom: 5vw;
   background-color: #cdcdcd;
 }
